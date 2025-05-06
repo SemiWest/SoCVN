@@ -1,6 +1,9 @@
 ﻿
 translate None strings:
 
+    old "CSMiYeonSi"
+    new "전산미연시"
+
     # renpy/common/00accessibility.rpy:28
     old "Self-voicing disabled."
     new "대사 읽기를 끕니다."

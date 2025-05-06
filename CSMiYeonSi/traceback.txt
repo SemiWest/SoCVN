@@ -1,0 +1,39 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00style.rpy", line 136, in script
+    style default:
+  File "renpy/common/00style.rpy", line 136, in script
+    style default:
+  File "renpy/common/00style.rpy", line 169, in <module>
+    ruby_style style.ruby_text
+AttributeError: 'StoreModule' object has no attribute 'ruby_text'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\renpy\renpy-8.3.7-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\renpy\renpy-8.3.7-sdk\renpy\main.py", line 541, in main
+    renpy.game.context().run(node)
+  File "renpy/common/00style.rpy", line 136, in script
+    style default:
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "renpy/common/00style.rpy", line 136, in script
+    style default:
+  File "C:\renpy\renpy-8.3.7-sdk\renpy\ast.py", line 2830, in execute
+    self.apply()
+  File "C:\renpy\renpy-8.3.7-sdk\renpy\ast.py", line 2813, in apply
+    value = renpy.python.py_eval(expr)
+  File "C:\renpy\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\renpy\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "renpy/common/00style.rpy", line 169, in <module>
+    ruby_style style.ruby_text
+AttributeError: 'StoreModule' object has no attribute 'ruby_text'
+
+Windows-10-10.0.19042 AMD64
+Ren'Py 8.3.7.25031702
+CSMiYeonSi 1.0
+Tue May  6 03:59:20 2025
